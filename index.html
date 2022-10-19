@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="error">
+      <form action="https://formspree.io/f/xlevdobz"  method="POST" id="form" name="confirmationForm">
+            <h3>GET IN TOUCH</h3>
+            <input type="text" name="name" id="name" placeholder="Your Name"   autocomplete="off" required>
+            <input type="email"  name="email" id="email" placeholder="Email id"  autocomplete="off" required>
+            <input type="text" name="phone" id="phone" placeholder="Phone no." autocomplete="off" required>
+            <textarea id="message" name="message" form="confirmationForm" rows="4" placeholder="How can we help you?"  autocomplete="off" required>
+            </textarea>
+            <button type="submit" >Send</button>
+        </form>
+    </div>
+   
+</body>
+
+</html>
